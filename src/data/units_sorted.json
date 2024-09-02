@@ -1,0 +1,68 @@
+{
+  "length": {
+    "us": [
+      { "name": "inch", "symbol": "in" },
+      { "name": "foot", "symbol": "ft" },
+      { "name": "yard", "symbol": "yd" },
+      { "name": "mile", "symbol": "mi" }
+    ],
+    "metric": [
+      { "name": "centimeter", "symbol": "cm" },
+      { "name": "meter", "symbol": "m" },
+      { "name": "kilometer", "symbol": "km" }
+    ]
+  },
+  "area": {
+    "us": [
+      { "name": "square inch", "symbol": "in2" },
+      { "name": "square foot", "symbol": "ft2" },
+      { "name": "square yard", "symbol": "yd2" },
+      { "name": "square mile", "symbol": "mile2" },
+      { "name": "acre", "symbol": "ac" }
+    ],
+    "metric": [
+      { "name": "square centimeter", "symbol": "cm2" },
+      { "name": "square meter", "symbol": "m2" },
+      { "name": "square kilometer", "symbol": "km2" },
+      { "name": "hectare", "symbol": "ha" }
+    ]
+  },
+  "mass": {
+    "us": [
+      { "name": "ounce", "symbol": "oz" },
+      { "name": "pound", "symbol": "lb" },
+      { "name": "short ton", "symbol": "tn" }
+    ],
+    "metric": [
+      { "name": "gram", "symbol": "g" },
+      { "name": "kilogram", "symbol": "kg" },
+      { "name": "metric ton", "symbol": "t" }
+    ]
+  },
+  "volume": {
+    "us": [
+      { "name": "teaspoon", "symbol": "tsp" },
+      { "name": "tablespoon", "symbol": "Tbsp" },
+      { "name": "cubic inch", "symbol": "in3" },
+      { "name": "fluid ounce", "symbol": "fl_oz" },
+      { "name": "cup", "symbol": "c" },
+      { "name": "pint, liquid", "symbol": "pt" },
+      { "name": "quart, liquid", "symbol": "qt" },
+      { "name": "gallon", "symbol": "gal" },
+      { "name": "cubic foot", "symbol": "ft3" },
+      { "name": "cubic yard", "symbol": "yd3" }
+    ],
+    "metric": [
+      { "name": "milliliter", "symbol": "mL" },
+      { "name": "liter", "symbol": "L" },
+      { "name": "cubic meter", "symbol": "m3" }
+    ]
+  },
+  "temperature": {
+    "us": [{ "name": "degree Farenheit", "symbol": "°F" }],
+    "metric": [
+      { "name": "degree Celsius", "symbol": "°C" },
+      { "name": "Kelvin", "symbol": "K" }
+    ]
+  }
+}

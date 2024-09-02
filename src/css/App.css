@@ -1,0 +1,21 @@
+.type-container button {
+  margin-left: .5rem;
+}
+.type-container button:first-child {
+  margin-left: 0;
+}
+.type-container button.active{
+  background-color:lightgreen;
+}
+
+@media (prefers-color-scheme: dark) {
+  .type-container button.active{
+    background-color:darkgreen;
+  }
+}
+
+.selects-container, .values-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 1rem;
+}
