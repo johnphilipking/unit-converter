@@ -50,8 +50,10 @@ const Ui = () => {
   const handleAmountChange = (event) => {
     if (event.target.classList.contains("valueFrom")) {
       const val = event.target.value;
-      if (val !== "") {
-        setFromValue(val);
+      setFromValue(val);
+      if (val === ""){
+        setToValue(0);
+      } else {
         setToValue(
           roundNumber(calculateUnits(unitType, unitFrom, unitTo, val))
         );
