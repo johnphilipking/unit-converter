@@ -1,5 +1,7 @@
 This is a personal project, a React app for converting units of measurement. Example, converting inches to centimeters, miles to kilometers, ounces to cups, acres to hectares, etc.
 
+LIVE DEMO: https://unit-converter-tau-bice.vercel.app/
+
 To install (assuming you have current(ish) version of NPM):
 
 1. Download code to a local folder.
